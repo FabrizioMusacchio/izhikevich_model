@@ -44,7 +44,7 @@ I_values = np.zeros(steps)
 t_values = np.zeros(steps)
 
 # set the baseline current:
-I_baseline = 20 # 10 nA; -10 for TC 2nd type neurons
+I_baseline = 10 # 10 nA; -10 for TC 2nd type neurons
 
 # simulation:
 for t in range(steps):
@@ -111,8 +111,8 @@ ax3.spines['right'].set_position(('outward', 60))
 ax3.plot(t_values, I_values, label='Input Current I(t)', color='b', lw=2, alpha=0.75)
 ax3.set_ylabel('input current $I$ [nA]', color='b')
 ax3.tick_params(axis='y', colors='b')
-ax3.set_ylim(-1,60)
 ax3.set_yticks(np.arange(-10, 61, 10))
+ax3.set_ylim(-11,60)
 ax3.spines['top'].set_visible(False)
 ax3.spines['right'].set_visible(False)
 ax3.spines['bottom'].set_visible(False)
