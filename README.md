@@ -3,6 +3,7 @@
 Python scripts supporting tutorials on Izhikevich neuron model. For more details, see these blog posts:
 
 * [Izhikevich model](https://www.fabriziomusacchio.com/blog/2024-04-29-izhikevich_model/)
+* [Simulating spiking neural networks with Izhikevich neurons](https://www.fabriziomusacchio.com/blog/2024-05-19-izhikevich_network_model/)
 
 For reproducibility:
 
